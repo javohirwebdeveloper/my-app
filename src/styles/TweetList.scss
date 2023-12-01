@@ -1,0 +1,31 @@
+// TweetList.scss
+$primary-color: #3498db;
+$border-color: #ddd;
+$border-radius: 5px;
+
+.TweetsContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: $primary-color;
+  }
+}
+
+.TweetItem {
+  list-style: none;
+  border: 1px solid $border-color;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: $border-radius;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: $border-radius;
+    margin-bottom: 10px;
+  }
+}
